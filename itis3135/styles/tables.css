@@ -1,0 +1,85 @@
+.table{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  font-size: 15px;
+}
+table tr:nth-child(even) {
+  background-color:rgb(41, 121, 114);
+  color: #fff; 
+}
+#firstrow{
+font: bold;
+font-size: 18px;
+color: white;
+background-color: rgb(18, 83, 78);
+}
+
+th {
+  text-align: left;
+}
+
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+body{
+  font-family: monospace;
+  color: rgb(18, 83, 78) ;
+  background-color: rgb(229,210,196);
+  margin-left: 75px;
+  margin-right: 75px;
+  font-weight: bold;
+}
+
+header, footer{
+  text-align: center;
+  color: rgb(18, 83, 78);
+font-weight: bold;
+}
+
+h1, h2, h3
+{
+	color: rgb(18, 83, 78);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+}
+
+h3
+{
+	font-size: 200%;
+	line-height: 0px;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(18, 83, 78);
+  font-weight: bold;
+}
+
+figure{
+  text-align: center;
+}
+
+figcaption{
+  font-style: italic;
+}
+
+nav{
+  text-align: center;
+}
+
+.img-daniel{
+  width: 200px;
+}
+
+
+ul li ::marker{
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}

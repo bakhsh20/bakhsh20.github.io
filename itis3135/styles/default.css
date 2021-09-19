@@ -3,35 +3,44 @@ body{
   font-family: monospace;
   color: rgb(18, 83, 78) ;
   background-color: rgb(229,210,196);
-  margin-left: 75px;
-  margin-right: 75px;
-  font-weight: bold;
+  font-size: 17px;
 }
 
-header, footer{
+header{
   text-align: center;
-  color: rgb(18, 83, 78);
-font-weight: bold;
+  color: rgb(23, 161, 161);;
 }
 
-h1, h2, h3
-{
-	color: rgb(18, 83, 78);
-	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	text-align: center;
+#navigation{
+  color: rgb(23, 161, 161);;
 }
 
+footer{
+  text-align:center;
+  color: rgb(23, 161, 161);
+  font-family: Verdana;
+  font-size: 15px;
+}
 
+h1{
+  text-align: center;
+  color: rgb(23, 161, 161);;
+}
+
+h2{
+  text-align: center;
+  color: rgb(23, 161, 161); ;
+}
 h3
 {
-	font-size: 200%;
-	line-height: 0px;
+  color: rgb(23, 161, 161);;
 }
 
 a{
   text-decoration: none;
-  color:rgb(18, 83, 78);
+  color:rgb(23, 161, 161);
   font-weight: bold;
+
 }
 
 figure{
@@ -39,23 +48,13 @@ figure{
 }
 
 figcaption{
-  font-style: italic;
+  font-size: 20px;
+  font-family: cursive;
+  color: rgb(23, 161, 161);;
 }
 
 nav{
   text-align: center;
+  color:rgb(23, 161, 161)
 }
 
-.img-daniel{
-  width: 200px;
-}
-
-
-ul li ::marker{
-  unicode-bidi: isolate;
-  font-variant-numeric: tabular-nums;
-  text-transform: none;
-  text-indent: 0px !important;
-  text-align: start !important;
-  text-align-last: start !important;
-}

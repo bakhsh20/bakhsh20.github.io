@@ -1,0 +1,38 @@
+.image {
+   width: 45px;
+   height: 600px;
+}
+
+
+ul{
+  text-align: center;
+}
+
+.paragraph1{
+  margin: 45px;;
+  background-color: blueviolet;
+}
+
+.list{
+  margin: 400px;
+}
+
+.enjoy{
+  margin: 70px;;
+}
+
+.paragraph{
+  margin-left: 1000px;;
+}
+
+.border1{
+  border-style:dotted;
+  border-top-width: 500px;
+  border-top-color: chartreuse;
+  border-right-width: 50px;
+  border-right-color:darkcyan;
+  border-bottom-width: 15px;
+  border-bottom-color: dodgerblue;
+  border-left-width: 35px;
+  border-left-color: darkorange;
+}
